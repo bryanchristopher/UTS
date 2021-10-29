@@ -1,0 +1,22 @@
+print("Program Konversi Suhu dari Celcius")
+celcius = int(input("Masukkan Suhu Celcius : "))
+fahrenheit = (9/5) * celcius + 32
+reamur = (4/5) * celcius
+print(celcius , " Celcius = " , fahrenheit , " Fahrenheit")
+print(celcius , " Celcius = " , reamur , " Reamur")
+
+print("-------------------------------------------------------")
+print("Program Konversi Suhu dari Fahrenheit")
+fahrenheit1 = int(input("Masukkan Suhu Fahrenheit : "))
+celcius1 = (5 / 9) * (fahrenheit1 - 32)
+reamur1 = (4 / 9) * (fahrenheit1 - 32)
+print(fahrenheit1 , " Fahrenheit = " , celcius1 , " Celcius")
+print(fahrenheit1 , " Fahrenheit = " , reamur1 , " Reamur")
+
+print("-------------------------------------------------------")
+print("Program Konversi Suhu dari Reamur")
+reamur2 = int(input("Masukkan Suhu Reamur : "))
+celcius2 = (5 / 4) * reamur2
+fahrenheit2 = (9 / 4) * reamur2 + 32
+print(reamur2 , " Reamur = " , celcius2 , " Celcius")
+print(reamur2 , " Reamur = " , fahrenheit2 , " Fahrenheit")
