@@ -1,0 +1,9 @@
+print("Program Konversi Detik")
+n = int(input("Masukkan Jumlah Detik : "))
+hari = n // 86400
+sisa1 = n % 86400
+jam = sisa1 // 3600
+sisa2 = sisa1 % 3600
+menit = sisa2 // 60
+detik = sisa2 % 60
+print(hari , " Hari, " , jam , " Jam, " , menit , " Menit, " , detik , " Detik")
