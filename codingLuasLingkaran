@@ -1,0 +1,5 @@
+print("Menghitung Luas Lingkaran")
+r = float(input("Masukkan Jari - Jari Lingkaran : "))
+p = 3.14
+luas = float(p * r * r)
+print("Luas Lingkaran adalah " , luas)
